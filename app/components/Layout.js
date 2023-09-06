@@ -7,7 +7,8 @@ function Layout({children}) {
     <div className='min-w-full min-h-screen bg-blue-100'>
       <SideBar/>
       <TopBar/>
-      <main>
+      {/*Board Component below*/}
+      <main className="pl-40 pt-16">
         {children}
       </main>
     </div>
