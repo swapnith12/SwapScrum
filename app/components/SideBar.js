@@ -7,7 +7,7 @@ import {HiOutlineDocumentReport} from 'react-icons/hi'
 
 const SideBar = () => {
   return (
-    <div className='fixed insert-y-0 left-0 min-h-screen bg-white w-40'>
+    <div className='fixed inset-y-0 left-0 min-h-screen bg-white w-40'>
       <h1 className='flex items-center justify-center text-xl h-12 bg-purple-600 text-white font-bold '>
         Swap Scrum</h1>
         <ul className='flex flex-col'>

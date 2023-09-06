@@ -8,7 +8,7 @@ function Layout({children}) {
       <SideBar/>
       <TopBar/>
       {/*Board Component below*/}
-      <main className="pl-40 pt-16">
+      <main className="pl-40 pt-5">
         {children}
       </main>
     </div>
