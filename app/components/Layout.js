@@ -4,9 +4,9 @@ import SideBar from './SideBar'
 
 function Layout({children}) {
   return (
-    <div className='min-w-full min-h-screen bg-blue-100'>
+    <div className='min-w-full min-h-screen bg-blue-100 '>
       <SideBar/>
-      <TopBar/>
+      <TopBar />
       {/*Board Component below*/}
       <main className="pl-40 pt-5">
         {children}
